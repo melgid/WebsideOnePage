@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styleLab1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <header id="cont">
+        <div class="top">
+          <div class="logo">
+            <img src="../img/logo-web-development.jpg" alt="logo" />
+          </div>
+          <div class="name_webside">
+            <a href="/Home" class="WebsideName">html <span>and</span> css</a>
+          </div>
+          <form action="/search">
+            <input type="search" class="search_box" placeholder="Search" />
+            <input type="submit" value="SEARCH" class="search_btn" />
+          </form>
+        </div>
+        <nav>
+          <a href="/home">Home</a>
+          <a href="#about">about</a>
+          <a href="#footer">Contact</a>
+        </nav>
+      </header>
+      <section id="body">
+        <div class="side_bar">
+          <h3>HTML Tutorial</h3>
+          <a href="#">HTML HOME</a>
+          <a href="#">HTML Introduction</a>
+          <a href="#">HTML Editors</a>
+          <a href="#">HTML Basic</a>
+          <a href="#">HTML Elements</a>
+          <a href="#">HTML Attributes</a>
+          <a href="#">HTML Headings</a>
+          <a href="#">HTML Paragraphs</a>
+          <a href="#">HTML Styles</a>
+          <a href="#">HTML Formatting</a>
+          <a href="#">HTML Quotations</a>
+          <a href="#">HTML Comments</a>
+          <a href="#">HTML Colors</a>
+          <a href="#">HTML CSS</a>
+          <a href="#">HTML Links</a>
+          <a href="#">HTML Images</a>
+          <a href="#">HTML Tables</a>
+          <a href="#">HTML Lists</a>
+          <a href="#">HTML Block & Inline</a>
+          <a href="#">HTML Classes</a>
+          <a href="#">HTML Id</a>
+          <a href="#">HTML Iframes</a>
+          <a href="#">HTML JavaScript</a>
+          <a href="#">HTML File Paths</a>
+          <a href="#">HTML Head</a>
+          <a href="#">HTML Layout</a>
+          <a href="#">HTML Responsive</a>
+          <a href="#">HTML Computercode</a>
+          <a href="#">HTML Semantics</a>
+          <a href="#">HTML Style Guide</a>
+          <a href="#">HTML Entities</a>
+          <a href="#">HTML Symbols</a>
+          <a href="#">HTML Emojis</a>
+          <a href="#">HTML Charset</a>
+          <a href="#">HTML URL Encode</a>
+          <a href="#">HTML vs. XHTML</a>
+          <h3>HTML Forms</h3>
+          <a href="#">HTML Forms</a>
+          <a href="#">HTML Form Attributes</a>
+          <a href="#">HTML Form Elements</a>
+          <a href="#">HTML Input Types</a>
+          <a href="#">HTML Input Attributes</a>
+          <a href="#">HTML Input Form Attributes</a>
+          <h3>HTML Graphics</h3>
+          <a href="#">HTML Canvas</a>
+          <a href="#">HTML SVG</a>
+          <h3>HTML Media</h3>
+          <a href="#">HTML Media</a>
+          <a href="#">HTML Video</a>
+          <a href="#">HTML Audio</a>
+          <a href="#">HTML Plug-ins</a>
+          <a href="#">HTML YouTube</a>
+          <h3>HTML APIs</h3>
+          <a href="#">HTML APIs</a>
+          <a href="#">HTML Geolocation</a>
+          <a href="#">HTML Drag/Drop</a>
+          <a href="#">HTML Web Storage</a>
+          <a href="#">HTML Web Workers</a>
+          <a href="#">HTML SSE</a>
+          <h3>HTML Examples</h3>
+          <a href="#">HTML Examples</a>
+          <a href="#">HTML Quiz</a>
+          <a href="#">HTML Exercises</a>
+          <a href="#">HTML Certificate</a>
+          <a href="#">HTML Summary</a>
+          <a href="#">HTML Accessibility</a>
+        </div>
+        <div class="main">
+          <article id="artical_1">
+            <h1>Что такое HTML5 – Различия Между HTML и HTML5</h1>
+            <br />
+            <h2>Введение</h2>
+            <br />
+            <p>
+              Люди, плохо знакомые со сферой веб-дизайна, часто слышат слово
+              «разметка» и задаются вопросом, что оно означает и как отличается
+              от более широко известного термина «код». В основном язык разметки
+              предназначен для обработки, определения и представления информации
+              о тексте; теги стилей и текстовые аннотации записываются в файлах
+              стилей, чтобы упростить работу с текстом для компьютера.
+              Исторически сложилось, что термин «разметка» произошел от
+              английского marking-up, а сам процесс от manuscript marking-up —
+              процесса разметки рукописи перед отдачей ее в печать. Здесь речь
+              пойдет о наиболее часто используемом языке разметки — HTML.
+              Несколько лет назад для этого языка было выпущено обновление под
+              названием HTML5. В этом руководстве мы расскажем, что такое HTML5
+              и поведаем о различиях между HTML и HTML5.
+            </p>
+            <br />
+            <h3>Что такое HTML?</h3>
+            <br />
+            <p>
+              HTML можно назвать основным языком Всемирной паутины. Большинство
+              веб-страниц, размещенных в Интернете, написаны в какой-либо из
+              вариаций HTML. С помощью него разработчики определяют то, как
+              мультимедиа, текст или гиперссылки будут отображаться среди
+              другого контента в браузере. Начиная от элементов, которые
+              устанавливают связи с вашим документом (гипертекстом), до
+              элементов которые делают эти документы интерактивными (например
+              формы) — все это является составными частями HTML. Стандарт HTML
+              был разработан W3C или Консорциумом Всемирной Паутины в 1997 году.
+              В HTML для определения структуры текста используются теги; теги и
+              элементы выделяются с использованием символов &lt;и&lg;. Вот лишь
+              некоторые из примеров для ранее упомянутых тегов — это заголовки,
+              таблицы, абзацы и т. д. В свою очередь, браузеры отвечают за
+              визуализацию содержимого страницы с помощью этих тегов. HTML не
+              был единственным стандартом веб-разработки. В первые дни развития
+              Интернета все теги контента и стили присутствовали на одном
+              гигантском, громоздком (и довольно сложном) языке. Со временем W3C
+              пришла к решению о необходимости разделения контента и стиля
+              страницы; Это привело к созданию таблиц стилей или CSS. В
+              настоящее время теги, которые используются для определения стиля
+              текста (например FONT), нежелательны и почти не используются, на
+              их место пришли таблицы стилей и только теги определения
+              содержимого (например H1) по-прежнему составляют ядро ​​HTML. С
+              течением времени в HTML было много обновлений, и в настоящее время
+              его новейшей версией является HTML5. HTML5, конечно прежде всего
+              является языком разметки, но он приобрел множество функций в
+              отличии от HTML и устранил некоторые из строгостей,
+              присутствовавших в XHTML. Хотя HTML5 обновляется практически
+              каждый день, однако новых выпущенных пронумерованных выпусков нет.
+              Основным различием между HTML и HTML5 может стать то, что ни
+              аудио, ни видео не являются составной частью HTML, тогда как они
+              оба могут рассматриваться как неотъемлемые части HTML5.
+            </p>
+            <br /><br />
+            <img
+              src="../img/html.webp"
+              alt="HTML photo"
+              class="center_img"
+            /><br /><br />
+            Чтобы полностью ответить на вопрос что такое HTML, нужно затронуть и
+            этапы его развития. Так как с течением времени он неоднократно
+            изменялся.
+            <br /><br />
+            <h1>Каковы основные различия между HTML и HTML5</h1>
+            <br />
+            Единственной постоянной вещью в области информационных технологий
+            является то, что периодические обновления и изменения неизбежны. Ни
+            один язык не может избежать обновлений или новых выпусков. HTML не
+            является исключением. HTML5 был выпущен с целью улучшения работы
+            Всемирной паутины как для разработчиков, так и для обычных
+            пользователей. Как уже упоминалось, самым большим преимуществом,
+            которое имеет HTML5 над своим ненумерованным предшественником,
+            является то, что у него есть поддержка аудио и видео высокого
+            уровня, которая не была частью спецификации в предыдущих HTML.
+            Другие различия между HTML и HTML5:
+            <br />
+            <ul>
+              <li>
+                SVG, canvas и другая виртуальная векторная графика
+                поддерживаются в HTML5, тогда как в HTML использование векторной
+                графики стало возможным только при использовании его в сочетании
+                с различными технологиями, такими как Flash, VML, Silver-light и
+                т.д.
+              </li>
+              <li>
+                HTML5 использует базы данных SQL и кеш приложений для временного
+                хранения данных, тогда как в HTML для этого используется только
+                кэш браузера.
+              </li>
+              <li>
+                Еще одно отличие между HTML и HTML5, о котором стоит упомянуть:
+                первый не позволяет запуск JavaScript в коде (вместо этого он
+                работает в потоке интерфейса браузера), тогда как последний
+                обеспечивает полную поддержку JavaScript для запуска в фоновом
+                режиме.
+              </li>
+              <li>
+                HTML5 не основан на SGML, и это позволяет ему иметь улучшенные
+                правила синтаксического анализа, которые обеспечивают улучшенную
+                совместимость.
+              </li>
+              <li>
+                В HTML5, в тексте могут использоваться встроенные MathML и SVG,
+                тогда как это невозможно в HTML.
+              </li>
+              <li>
+                Некоторые из устаревших элементов были полностью удалены:
+                isindex, noframes, acronym, applet, basefont, dir, font, frame,
+                frameset, big, center, strike, tt.
+              </li>
+              <li>
+                HTML5 поддерживает новые виды элементов управления, к примеру,
+                dates and times, email, number, range, tel, url, search и т.д.
+              </li>
+              <li>
+                В HTML появилось много новых элементов. Вот некоторые из самых
+                важных: summary, time, aside, audio, command, data, datalist,
+                details, embed, wbr, figcaption, figure, footer, header,
+                article, hgroup, bdi, canvas, keygen, mark, meter, nav, output,
+                progress, rp, rt, ruby, section, source, track, video.
+              </li>
+            </ul>
+            <img
+              src="../img/html_html5.webp"
+              alt="HTML_HTML5 photo"
+              class="center_img"
+            /><br />
+            <h1>Основные преимущества HTML5 для разработчиков</h1>
+            <br />
+            HTML5 предоставляет для разработчиков больше гибкости при разработке
+            дизайна сайтов, и в этой сфере есть значительные улучшения, о
+            которых стоит упомянуть:
+            <br />
+            <ol>
+              <li>
+                <strong>Постоянная обработка ошибок:</strong><br /><br />
+                <p>
+                  Большинство браузеров поддерживают парсинг структурно или
+                  синтаксически неправильного HTML кода, но до недавнего времени
+                  для этого не было стандартного процесса. Это означает, что
+                  разработчикам новых браузеров необходимо производить тесты
+                  неверных HTML документов для создания более улучшенного
+                  процесса обработки ошибок. Постоянная обработка ошибок в HTML5
+                  сыграла в этом процессе огромное значение. Улучшенные
+                  алгоритмы парсинга, которые используются в HTML5 имеют
+                  неоценимые преимущества. Исследования показывают, что около
+                  90% сайтов могут содержать некорректно написанный код, поэтому
+                  очень важно обрабатывать эти ошибки. Кроме того, присущая
+                  HTML5 обработка ошибок сохраняет разработчикам много денег и
+                  массу времени.
+                </p>
+                <br />
+              </li>
+              <li>
+                <strong>Улучшенная семантика для элементов:</strong><br /><br />
+                <p>
+                  Для упрощения и улучшения понимания кода были внесены
+                  улучшения в семантические роли различных существующих
+                  элементов. Section, article, nav и header — это новые
+                  элементы, которые заменили большинство из ныне устаревших div
+                  элементов. Это сделало процесс обработки ошибок менее сложным.
+                </p>
+                <br />
+              </li>
+              <li>
+                <strong>Расширенная поддержка функций веб-приложений:</strong>
+                <br /><br />
+                <p>
+                  Одной из главных целей HTML5 было создание возможности
+                  функционирования браузеров в качестве платформы для
+                  приложений. Веб-сайты в прошлом были намного менее сложными,
+                  но со временем громоздкость возрастала. HTML5 предоставляет
+                  разработчикам расширенный контроль над производительностью
+                  своих сайтов. Раньше разработчикам приходилось использовать
+                  обходные пути, поскольку многие серверные технологии и
+                  браузерные расширения отсутствовали. Теперь, при использовании
+                  HTML5 нет смысла использовать какие-либо JS или Flash
+                  расширения (как это было в HTML4), поскольку в HTML5
+                  присутствуют элементы, которые обеспечивают все эти функции.
+                </p>
+                <br />
+              </li>
+              <li>
+                <strong>Создание мобильных сайтов стало проще:</strong>
+                <br /><br />
+                <p>
+                  Даже сегодня, создание мобильной версии сайта, это головная
+                  боль для разработчика. Увеличение популярности смартфонов в
+                  последние десятилетия создало необходимость в улучшении
+                  стандартов HTML. Сегодня пользователи хотят иметь доступ к
+                  веб-ресурсам в любое время и с помощью любого устройства, что
+                  накладывает определенные обязательства на разработчиков. HTML5
+                  сделал в этом плане значительные улучшения, благодаря тому,
+                  что код HTML5 теперь лучше поддерживается маломощными
+                  электронными устройствами, такими как смартфоны и планшеты.
+                </p>
+                <br />
+              </li>
+              <li>
+                <strong>Элемент canvas:</strong> <br /><br />
+                <p>
+                  Одной из самых обсуждаемых особенностей HTML5 является элемент
+                  &lt;canvas&gt;. Внедрение этого уникального тега произвело
+                  огромное влияние на Adobe Flash. Несмотря на то, что многие
+                  сайты до сих пор используют Flash, все больше людей склоняются
+                  к использованию HTML5, именно поэтому есть основание полагать,
+                  что Flash в ближайшем будущем полностью устареет.
+                  <br />
+                  Используя элемент canvas разработчики могут рисовать с помощью
+                  скриптов (например JavaScript) графические изображения с
+                  применением различных цветов. Стоит упомянуть, что canvas это
+                  обычный графический контейнер и для показа изображения
+                  необходимо выполнение скрипта. Вот пример использования
+                  JavaScript в сочетании с canvas:
+                </p>
+              </li>
+              <figure>
+                <code
+                  >&lt;canvas id=”TestCanvas” width=”200″
+                  height=”100″&gt;&lt;/canvas&gt;<br />
+                  var c = document.getElementById(“TestCanvas”);
+                  <br />
+                  var context = c.getContext(“2d”);
+                  <br />
+                  context.fillStyle = “#FF0000”;
+                  <br />
+                  context.fillRect(0,0,140,75);</code
+                >
+              </figure>
+              <li>
+                <strong>Элемент menu:</strong> <br /><br />
+                <p>
+                  Недавно добавленные элементы &lt;menu&gt; и &lt;menuitem&gt;
+                  являются составными частями интерактивных элементов, однако,
+                  они не очень популярны в сообществе разработчиков. Несмотря на
+                  это, эти два элемента могут быть использованы для обеспечения
+                  более лучшей интерактивности на странице.
+                  <br />
+                  Тег &lt;menu&gt; используется для простоты предоставления
+                  команд меню на мобильных приложениях и приложениях рабочего
+                  стола. Здесь показано возможное применение тега
+                  &lt;menu&gt;:&lt;/p&gt;
+                </p>
+              </li>
+              <figure>
+                <code
+                  >&lt;body contextmenu=”new-menu”&gt;
+                  <br />
+                  &lt;menu id=” new-menu” type=”context”&gt;
+                  <br />
+                  &lt;menuitem&gt;Hello!&lt;/menuitem&gt;
+                  <br />
+                  &lt;/menu &gt;<br />
+                  &lt;/body &gt;
+                </code>
+              </figure>
+              <li>
+                <strong>Настраиваемые атрибуты данных:</strong> <br /><br />
+                <p>
+                  Добавление пользовательских атрибутов было возможно и до
+                  появления HTML5, но оно было связано с определенным риском, к
+                  примеру, в HTML4 пользовательские атрибуты могли приводить к
+                  остановке рендера страницы или что еще хуже, могли стать
+                  причиной неправильной работы документа. Атрибут data-* в HTML5
+                  поставил точку в решении этой часто встречающейся проблемы.
+                  Этот атрибут имеет несколько предназначений, но основной целью
+                  его введения было хранение дополнительной информации о разных
+                  элементах. Теперь, благодаря этому атрибуту могут быть
+                  включены пользовательские данные, что дает разработчикам
+                  больше возможностей сделать привлекательные и эффективные
+                  страницы, без лишних запросов на сервер или вызовов Ajax.
+                </p>
+                <br />
+              </li>
+              <li>
+                <strong>(Возможное) прощание с Cookies:</strong> <br /><br />
+                <p>
+                  Поддержка локального хранилища стала важным дополнением к
+                  HTML5. До появления HTML5, если разработчики хотели хранить
+                  что-либо на стороне пользователя, им приходилось использовать
+                  файлы cookie. Однако файлы cookie могут содержать лишь
+                  небольшой объем данных (не говоря уже о том, что все их
+                  ненавидят), это прибавило добавлению объекта localStorage в
+                  HTML5 еще больше преимуществ. Объект localStorage является
+                  частью глобального пространства имен и при использовании
+                  скриптов может быть доступен из любого места.
+                </p>
+              </li>
+            </ol>
+            <h1>Шпаргалка HTML5</h1>
+            <br />
+            <p>
+              Если вы еще не знаете что такое HTML5 и с чем его едят, шпаргалка
+              может быть отличным подспорьем при его изучении. Используйте
+              приведенную ниже таблицу стилей HTML, для более продуктивного
+              начала работы с HTML. Эта шпаргалка показывает наиболее часто
+              используемые теги HTML.
+            </p>
+            <br />
+            <img
+              src="../img/html_layout.webp"
+              alt="HTML Layout photo"
+              class="center_img"
+            /><br /><br />
+            <h1>Преимущества HTML5 для обычного пользователя</h1>
+            <br />
+            <p>
+              HTML5 привел к сдвигу устоявшейся модели программирования как для
+              разработчиков, так и для обычных пользователей. Приведем примеры
+              нескольких преимуществ для обычных пользователей:
+            </p>
+            <ol>
+              <li>
+                Мобильные браузеры теперь работают более стабильно, чем
+                стандартные приложения. До появления HTML5 ситуация была иная.
+              </li>
+              <li>
+                Сегодня ставка на адаптивные сайты (дружелюбные к мобильным
+                устройствам) очень высока, так как почти 30 процентов
+                пользователей мобильных устройств не хотят загружать специальные
+                приложения. Это стало еще одним преимуществом HTML5, к примеру,
+                если пользователь хочет использовать услуги компании, но не
+                хочет загружать специальное приложение, он может просто зайти на
+                сайт компании, чтобы сделать это.
+              </li>
+              <li>
+                Искоренение необходимости использования Adobe Flash позволяет
+                разработчикам обеспечить более эстетичный пользовательский
+                интерфейс. Использование JavaScript и MPEG4 в сочетании с HTML5
+                сделало жизнь пользователей намного лучше.
+              </li>
+              <li>
+                Возможность поддержки собственных аудио и видео элементов
+                означает, что пользователям не придется загружать дополнительные
+                плагины для просмотра мультимедиа на вашем сайте. Поддержка
+                мультимедиа, предоставляемая HTML5, является одной из самых
+                значимых причин, по которой он используется намного чаще чем
+                HTML.
+              </li>
+            </ol>
+            <h1>Заключение</h1>
+            <br />
+            <p>
+              Вряд ли новая версия любого языка может быть хуже предшественника
+              и HTML5 не является исключением. С каждым годом разработчики
+              узнают новые способы использования HTML5. Кроме того, ожидается,
+              что в ближайшее время изменение затронет и социальные сети.
+              Несмотря на то, что волна изменений уже настигла многих
+              разработчиков по всему миру, ожидается, что в ближайшие годы HTML5
+              еще более расширит свое влияние. Очень важно адаптироваться и
+              узнать что такое HTML5 сейчас, чтобы максимально использовать
+              возможности современных браузеров.
+            </p>
+          </article>
+          <article id="artical_2">
+            <div class="header_main">
+              <h1>Easy Learning with HTML "Try it Yourself"</h1>
+              <br />
+              With our "Try it Yourself" editor, you can edit the HTML code and
+              view the result:
+            </div>
+            <div class="example">
+              <figure>
+                <figcaption>Example</figcaption>
+                <code>
+                  &lt;!DOCTYPE html&gt; <br />
+                  &lt;html&gt;<br />
+                  &lt;head&gt;<br />
+                  &lt;title&gt;Page Title&lt;/title&gt; <br />
+                  &lt;/head &gt;<br />
+                  &lt;body &gt; <br />
+                  &lt;h1&gt;This is a Heading&lt;/h1&gt;<br />
+                  &lt;p &gt;This is a paragraph.&lt;/p&gt; <br />
+                  &lt;/body &gt; <br />&lt;/html &gt;
+                </code>
+              </figure>
+              <a
+                href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default"
+                type="button"
+                class="btn"
+                >Try it Yourself >></a
+              >
+            </div>
+          </article>
+        </div>
+        <section>
+          <div class="sidesection howto">
+            <h4>
+              <a href="https://www.w3schools.com/howto/default.asp">How To</a>
+            </h4>
+            <ul>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_js_tabs.asp"
+                  >Tabs</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_css_dropdown.asp"
+                  >Dropdowns</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_js_accordion.asp"
+                  >Accordions</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_js_sidenav.asp"
+                  >Side Navigation</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_js_topnav.asp"
+                  >Top Navigation</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_css_modals.asp"
+                  >Modal Boxes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.w3schools.com/howto/howto_js_progressbar.asp"
+                  >Progress Bars</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_css_parallax.asp"
+                  >Parallax</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.w3schools.com/howto/howto_css_login_form.asp"
+                  >Login Form</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_html_include.asp"
+                  >HTML Includes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.w3schools.com/graphics/google_maps_intro.asp"
+                  >Google Maps</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.w3schools.com/howto/howto_js_rangeslider.asp"
+                  >Range Sliders</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_css_tooltip.asp"
+                  >Tooltips</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp"
+                  >Slideshow</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.w3schools.com/howto/howto_js_filter_lists.asp"
+                  >Filter List</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/howto/howto_js_sort_list.asp"
+                  >Sort List</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="sidesection colorpicker">
+            <h4>
+              <a href="https://www.w3schools.com/colors/colors_picker.asp"
+                >COLOR PICKER</a
+              >
+            </h4>
+            <a href="https://www.w3schools.com/colors/colors_picker.asp">
+              <img src="../img/colorpicker.gif" alt="colorpicker"
+            /></a>
+          </div>
+        </section>
+      </section>
+
+      <div class="clearfix"></div>
+      <section id="about">
+        <div class="about container">
+          <div class="col-left">
+            <div class="about-img">
+              <img src="../img/me.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="col-right">
+            <h1 class="section-title">About <span>me</span></h1>
+            <h2>Front End Developer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eos
+              fuga, asperiores quia maiores, quo expedita ab, accusamus
+              necessitatibus consequuntur reiciendis. Reiciendis a ab quaerat.
+              Doloribus atque dolore incidunt quae totam, vero eaque, deleniti
+              voluptatem sequi earum iure quod impedit vel cum aspernatur
+              provident corporis?
+            </p>
+            <a href="#" class="btn">Download Resume</a>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="footer container">
+          <div class="brand">
+            <h1><span>M</span>ohamed <span>E</span>lgid</h1>
+          </div>
+          <h2>Your Complete Web Solution</h2>
+          <div class="social-icon">
+            <div class="social-item">
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"
+                  alt="Facebook"
+              /></a>
+            </div>
+            <div class="social-item">
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/bubbles/50/000000/twitter.png"
+                  alt="Twitter"
+              /></a>
+            </div>
+            <div class="social-item">
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/bubbles/50/000000/vk-com.png"
+                  alt="VK"
+              /></a>
+            </div>
+          </div>
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            XXX. All rights reserved
+          </p>
+        </div>
+      </footer>
+      <footer class="footer2"></footer>
+      <footer class="f"></footer>
+    </div>
+  </body>
+</html>
